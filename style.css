@@ -1,0 +1,126 @@
+
+/* This is the top section of the website, header and hero*/	
+* {
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: #A2DEE4;
+
+}
+
+.dog-icon{
+	width: 2%;
+	display: inline-block;
+	
+	
+}
+.nav-bar{
+	position: relative;
+	float: right;
+	display: inline-block;
+	padding: 3px;
+
+	 
+	
+
+}
+
+.hero{
+	background-image: url(images/park.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.button{
+	border-style: 1px;
+	border: solid #A2DEE4;
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 5px;
+
+
+}
+
+.main-dog {
+
+	border-radius: 50%;
+	border: 5px solid #A2DEE4;
+
+
+
+
+}
+
+.dog-photos{
+	border-radius: 50%;
+	border: 2px solid #A2DEE4;
+	width: 150px;
+	
+
+}
+
+p{
+	height: 180px;
+}
+
+/*This is the setion of the website with 3 articles */
+
+
+/*	how section */
+.how{
+	display:inline-block;
+	position: relative;
+	text-align: center;
+	width: 31%;
+	height: 95%;
+}
+
+.dog-how {
+	border-color: #A2DEE4;
+	border-radius: 50%;
+	
+}
+
+/*this is the what section*/
+
+.what {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: 31%;
+	height: 95%;
+
+}
+
+.dog-what {
+	border: 2px solid #A2DEE4;
+	border-radius: 50%;
+}
+
+
+/*this is the fact section	*/
+
+.facts{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: 31%;
+	height: 95%;
+}
+
+.dog-facts{
+	border-radius: 50%;
+	border-color: #A2DEE4;
+}
+
+.footer {
+	background-color: #528CA4;
+	margin: 0 auto;
+	text-align: center;
+}
